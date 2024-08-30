@@ -1,0 +1,114 @@
+#prodetails .single-pro-image{
+   width: 40%;
+   margin-right: 50px;
+}
+#prodetails .single-pro-image #mainimg {
+   height: 65vh;
+}
+
+
+#prodetails {
+    display: flex;
+   margin-top: 20px;
+}
+.small-image-group {
+    display:flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 50px;
+
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 50px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+ width: 50px;
+ height: 47px;
+ padding-left: 10px;
+ font-size: 16px;
+ margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+ outline: none;
+}
+
+
+#prodetails .single-pro-details button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#prodetails .single-pro-details span {
+   line-height: 35px;
+}
+
+#product1 p {
+  color: black;
+}
+
+
+
+@media(max-width: 477px) {
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#prodetails .single-pro-image {
+  width: 100%;
+  margin-right: 0px;
+}
+
+#prodetails .single-pro-image #mainimg {
+  height: 45vh;
+}
+
+#prodetails .single-pro-details {
+  width: 100%;
+}
+}
+
+@media (max-width: 799px) {
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#prodetails .single-pro-image {
+  width: 100%;
+  margin-right: 1px;
+}
+
+.section-p1 {
+  padding: 40px 40px;
+}
+
+#prodetails .single-pro-details {
+  width: 100%;
+  padding-top: 60px;
+}
+
+
+}
